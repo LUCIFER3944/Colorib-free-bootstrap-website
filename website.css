@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; 
+}
+.mainbody{
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    height: 1000px;
+ 
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.Logo {
+  
+    height: 100px;
+    width: auto;
+    margin-left: 800px;
+}
+
+.nav1 ul {
+display: flex;
+justify-content: center;
+}
+.nav1 a {
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav1 a:hover {
+    color: red;
+}
+
+.Background {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main {
+    flex-direction: column;
+    padding: 150px 20px;
+   
+}
+
+.main h2 {
+    color: #f5f1f1;
+    font-size: 24px;
+  
+}
+
+.main h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #efe8e8;
+  
+}
+
+.main p {
+    font-size: 18px;
+    color: #f1e9e9;
+    line-height: 1.6;
+}
+button{
+    color: white;
+    background-color: red;
+    font-size:15px;
+transform:translate(200px 50px);
+padding: 15px;
+}
+button:hover{
+    color: black;
+
+}
+.Burger{
+display: inline;
+height: 400px;
+width: 600px;
+
+}
+.about{
+ font-size: 60px;
+ margin-top: 50px;
+}
+.about2{
+    font-size:30px;
+    display: inline;
+    margin-top: -30px;
+    
+}
+.lol2{
+    display: flex;
+}
+.button2{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    padding: 15px;
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+.body2{
+    background-color: rgba(213, 222, 222, 0.742);
+}
+.nav2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.nav2 a:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.food-section {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    width: 500px; 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.body3{
+  
+    background-image: url('reservation-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.reservation-box {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 1111px;
+    margin-top: -11px;
+}
+
+.reservation-box input,.reservation-box textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.reservation-button {
+    background-color: #ff4e00;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.reservation-button:hover {
+    background-color: #eb0000;
+}
+.lol5{
+
+}
