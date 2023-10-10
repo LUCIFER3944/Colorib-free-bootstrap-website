@@ -36,6 +36,8 @@ body {
 
 .nav1 a:hover {
   color: red;
+  transform: scale(1.5);
+  transition: all 1s;
 }
 
 .Background {
@@ -83,6 +85,12 @@ button:hover {
   display: inline;
   height: 400px;
   width: 600px;
+  border-radius: 11px;
+}
+  .Burger:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+  
 }
 .about {
   font-size: 60px;
@@ -216,11 +224,16 @@ button:hover {
   background-position: center;
   height: 600px;
 }
-.lol5{
-  
+.lol5 {
   line-height: 1.6;
 }
-.food2{
-  display:flex;
+.food2 {
+  display: flex;
   justify-content: space-evenly;
+ 
+}
+.food2:hover{
+  transform: scale(1.1);
+  transition: all 1s;
+
 }
